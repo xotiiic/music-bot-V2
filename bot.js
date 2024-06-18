@@ -70,7 +70,7 @@ app.get('/', (req, res) => {
     res.sendFile(imagePath);
 });
 app.listen(port, () => {
-    console.log(`Xotiic`);
+    console.log(`🔗 Listening to Xotiic : http://localhost:${port}`);
 });
 
 printWatermark();
