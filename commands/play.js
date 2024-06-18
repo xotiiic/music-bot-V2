@@ -1,23 +1,3 @@
-/*
-
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
-
-╔════════════════════════════════════════════════════════════════════════╗
-║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
-║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
-║                                                                        ║
-╚════════════════════════════════════════════════════════════════════════╝
-
-
-*/
 const { ApplicationCommandOptionType, EmbedBuilder } = require('discord.js');
 
 const queueNames = [];
@@ -86,7 +66,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif',
-                    url: 'https://discord.gg/xQF9f9yUEM'
+                    url: '<https://discord.com/users/1000489107379720262>'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**'),
 
@@ -95,7 +75,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif',
-                    url: 'https://discord.gg/xQF9f9yUEM'
+                    url: '<https://discord.com/users/1000489107379720262>'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**'),
 
@@ -104,7 +84,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802049190920202/4104-verify-red.gif',
-                    url: 'https://discord.gg/xQF9f9yUEM'
+                    url: '<https://discord.com/users/1000489107379720262>'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**')
         ];
@@ -138,23 +118,3 @@ module.exports = {
 };
 
 
-/*
-
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
-
-╔════════════════════════════════════════════════════════════════════════╗
-║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
-║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
-║                                                                        ║
-╚════════════════════════════════════════════════════════════════════════╝
-
-
-*/
