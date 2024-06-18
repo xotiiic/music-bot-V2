@@ -66,7 +66,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif',
-                    url: '<https://discord.com/users/1000489107379720262>'
+                    url: 'https://discord.com/users/1000489107379720262'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**'),
 
@@ -75,7 +75,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif',
-                    url: '<https://discord.com/users/1000489107379720262>'
+                    url: 'https://discord.com/users/1000489107379720262'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**'),
 
@@ -84,7 +84,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802049190920202/4104-verify-red.gif',
-                    url: '<https://discord.com/users/1000489107379720262>'
+                    url: 'https://discord.com/users/1000489107379720262'
                 })
                 .setDescription('➡️ **Your request has been successfully processed.**\n➡️** Please use the buttons to control the queue**')
         ];
