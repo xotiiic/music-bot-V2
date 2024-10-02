@@ -4,6 +4,6 @@ module.exports = {
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "00fbff",
-  errorLog: "", 
+  errorLog: "1291005509096443985", 
 
 }
