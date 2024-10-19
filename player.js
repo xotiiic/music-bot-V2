@@ -4,13 +4,16 @@ const { queueNames } = require("./commands/play");
 
 function initializePlayer(client) {
     const nodes = [
-        {
-            host: "lava-v3.ajieblogs.eu.org",
-            port: 443,
-            password: "https://discord.com/users/1000489107379720262",
-            secure: true
-        },
-    ];
+    {
+        name: "Working1",
+        host: "nodev4.fypmoon.org",
+        port: 1118,
+        password: "fypmoon.org",
+        reconnectTimeout: 5000,
+        reconnectTries: Infinity,
+        secure: false
+    },
+ ]
 
     client.riffy = new Riffy(client, nodes, {
         send: (payload) => {
